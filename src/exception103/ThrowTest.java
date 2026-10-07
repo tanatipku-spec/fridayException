@@ -18,7 +18,7 @@ public class ThrowTest {
 
     public static void main(String args[]) {
         try {
-            System.out.println(div(2500, 50));
+            System.out.println(div(2500, 0));
         } catch (ArithmeticException e) {
             System.out.println("Error --> Divide by Zero !");
         }
